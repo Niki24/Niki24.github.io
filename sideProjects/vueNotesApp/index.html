@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://unpkg.com/vue"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Notes</title>
+</head>
+<style>
+    #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin: 20px;
+    }
+
+    .form {
+    text-align: left;
+    }
+
+    .card {
+    text-align: left;
+    border: 1px solid #2c3e50;
+    border-radius: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+
+    .note {
+    padding: 5px;
+}
+</style>
+<body>
+    <div id="app">
+        <h3>{{title}}</h3>
+        <div class="form">
+            <div class="form-group">
+                <div class="form-group">
+                    <label> Note Title </label>
+                    <input class="form-control" type="text" v-model="note.title">
+                </div><!--form-group-->
+                <div class="form-group">
+                    <label>Note text</label>
+                    <textarea class="form-control" v-model="note.text"></textarea>
+                </div>
+            </div> <!--form-group-->
+            <button class="btn btn-primary" @click="addNote">Submit</button>
+        </div><!--//form-->
+        <div class="col-sm-12">
+            <div class="col-sm4 note" v-for="(note, index) in notes">
+                <div class="card">
+                    <button class="close" @click="removeNote(index)">&times; </button>
+                    <div class="card-block">
+                        <h4 class="card-title">{{ note.title }}</h4>
+                        <h6 class="card-subtitle mb-2 text-muted"> {{ note.date }} </h6>
+                       <p class="card-text">{{ note.text }}</p>               
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--//app-->
+    <script> 
+        var app = new Vue({
+            el: '#app', 
+            data: {
+                title:'Notes App', 
+                note: {
+                    title: '',
+                    text: ''
+                }, 
+                notes: [
+                    {
+                        title:'Visited Mexico', 
+                        text:'i love Mexico', 
+                        date: new Date(Date.now()).toLocaleString()
+                    }
+                ]
+            }, 
+            methods: {
+                addNote(){
+                    let { text, title } = this.note 
+                    this.notes.push({text, title, date:new Date(Date.now()).toLocaleString()
+                    })
+                }, 
+                removeNote(index){
+                    this.notes.splice(index, 1)
+                }
+            }
+        })
+    </script>
+</body>
+</html>
