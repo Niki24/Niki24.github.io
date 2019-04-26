@@ -1,7 +1,7 @@
 # Niki Giles
 ### Fullstack Developer
 ---
-I am a computer programming adjunct instructor at Augusta Technical College and work fulltime as a fullstack developer.
+I am a computer programming adjunct instructor at a community college and work full-time as a fullstack developer.
 
 My background is rooted in digital media and web development. I work with the LAMP stack but constantly experiment with LEMP and javascript technology. 
 
