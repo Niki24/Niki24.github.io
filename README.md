@@ -15,7 +15,7 @@ This portfolio is intended to showcase various projects completed.
 - [Monster Fight](https://niki24.github.io/grad/monsterFight)
 
 ##### PHP
-- [Recipes](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/recipesApp/model/Recipe.php/){target="_blank"}  
+- [Recipes](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/recipesApp/model/Recipe.php/)
 - [Library](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/libraryApp/model/LibraryDB.php)
 
 
