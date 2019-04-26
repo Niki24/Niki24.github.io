@@ -11,8 +11,8 @@ This portfolio is intended to showcase various projects completed.
 #### Grad School Projects
 ---
 ##### Java
-- [Car Lot](https://niki24.github.io/grad/carLot)
-- [Monster Fight](https://niki24.github.io/grad/monsterFight)
+- [Car Lot](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/carLot/src/edu/westga/cs6311/carlot/model/CarLot.java)
+- [Monster Fight](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/monsterFight/src/edu/westga/cs6312/monsters/model/PunchingMonster.java)
 
 ##### PHP
 - [Recipes](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/recipesApp/model/Recipe.php/)
