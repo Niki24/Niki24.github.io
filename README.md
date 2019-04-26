@@ -35,4 +35,4 @@ This portfolio is intended to showcase various projects completed.
 ##### Laravel
 - [Blog App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/laravelBlog/resources/views/blog/show.blade.php)
 - [Contact Manager App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/laravelContactManager/app/Http/Controllers/ContactsController.php)
-- [Vehicle API](https://niki24.github.io/sideProjects/laravelVehicleApi)
+- [Vehicle API](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/laravelVehicleApi/app/Http/Controllers/MakerController.php)
