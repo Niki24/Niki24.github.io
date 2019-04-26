@@ -15,8 +15,8 @@ This portfolio is intended to showcase various projects completed.
 - [Monster Fight](https://niki24.github.io/grad/monsterFight)
 
 ##### PHP
-- [Recipes](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/recipesApp/model/Recipe.php)  
-- [Library](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/libraryApp/model/LibraryDB.php)
+- [Recipes](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/recipesApp/model/Recipe.php){:target="_blank"} 
+- [Library](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/grad/libraryApp/model/LibraryDB.php){:target="_blank"}
 
 
 
@@ -24,17 +24,17 @@ This portfolio is intended to showcase various projects completed.
 #### Side Projects
 ---
 ##### JavaScript
-* [Notes App](https://niki24.github.io/sideProjects/vueNotesApp)  
+* [Notes App](https://niki24.github.io/sideProjects/vueNotesApp){:target="_blank"}  
 
 ##### Angular
-* [Github API](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/angularGithubProfiles/services/github.service.ts)
-* [Spotify API](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/angularSpotify/services/spotify.service.ts) 
+* [Github API](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/angularGithubProfiles/services/github.service.ts){:target="_blank"}
+* [Spotify API](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/angularSpotify/services/spotify.service.ts){:target="_blank"}
 
 ##### Ionic
-- [Quotes App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/ionicQuotesApp/services/quote.service.ts)
-- [Weather App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/ionicWeatherApp/pages/weather/weather.ts)  
+- [Quotes App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/ionicQuotesApp/services/quote.service.ts){:target="_blank"}
+- [Weather App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/ionicWeatherApp/pages/weather/weather.ts){:target="_blank"}  
 
 ##### Laravel
-- [Blog App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/laravelBlog/resources/views/blog/show.blade.php)
-- [Contact Manager App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/laravelContactManager/app/Http/Controllers/ContactsController.php)
+- [Blog App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/laravelBlog/resources/views/blog/show.blade.php){:target="_blank"}
+- [Contact Manager App](https://raw.githubusercontent.com/Niki24/niki24.github.io/master/sideProjects/laravelContactManager/app/Http/Controllers/ContactsController.php){:target="_blank"}
 - [Vehicle API](https://niki24.github.io/sideProjects/laravelVehicleApi)
